@@ -21,7 +21,7 @@ body{
 
 .gameObject{
     /*background-color: white;*/
-    transition:all 1s ease-in-outs;
+    transition:all 1s ease-in-out;
     position: absolute;
     
 }
