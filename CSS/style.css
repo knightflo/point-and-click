@@ -1,4 +1,57 @@
 body{
     background-color: black;
     color: white;
+    display:grid;
+    grid-template-columns: auto 800px auto;
+}
+#gameWindow{
+    width: 800px;
+    height: 608px;
+    background-color: blue;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    position:relative;
+}
+#maintitle{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    text-align: center;
+
+}
+
+.gameObject{
+    /*background-color: white;*/
+    transition:all 1s ease-in-outs;
+    position: absolute;
+    
+}
+
+.foreground{
+    z-index: 1000;
+}
+
+.character{
+    z-index: 100;
+}
+
+.background{
+    z-index: 0;
+}
+#mainCharacter{
+    left: 407px;
+    top: 494px;
+}
+#doorone{
+    background-color: white;
+    width: 32px;
+    height: 47px;
+    left: 528px;
+    top: 114px;
+}
+#doortwo{
+    background-color: white;
+    width: 32px;
+    height: 47px;
+    left: 69px;
+    top: 69px;
 }
