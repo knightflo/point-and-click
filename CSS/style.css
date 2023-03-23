@@ -48,10 +48,101 @@ body{
     left: 528px;
     top: 114px;
 }
-#doortwo{
-    background-color: white;
+#grass1{
+   /* background-color: white;*/
+    width: 256px;
+    height: 32px;
+    left: 256px;
+    top: 447px;
+}
+#grass2{
+   /* background-color: white;*/
     width: 32px;
-    height: 47px;
-    left: 69px;
-    top: 69px;
+    height: 129px;
+    left: 480px;
+    top: 478px;
+}
+#grass3{
+   /* background-color: white;*/
+    width: 384px;
+    height: 64px;
+    left: 0px;
+    top: 544px;
+}
+#grass4{
+  /* background-color: white;*/
+    width: 128px;
+    height: 544px;
+    left: 0px;
+    top: 0px;
+}
+#grass5{
+   /* background-color: white;*/
+    width: 94px;
+    height: 255px;
+    left: 128px;
+    top: 0px;
+}
+#grass6{
+  /*  background-color: white;*/
+    width: 31px;
+    height: 128px;
+    left: 192px;
+    top: 255px;
+}
+#grass7{
+   /* background-color: white;*/
+    width: 32px;
+    height: 96px;
+    left: 256px;
+    top: 351px;
+}
+#grass8{
+  /*  background-color: white;*/
+    width: 158px;
+    height: 32px;
+    left: 223px;
+    top: 256px;
+}
+#grass9{
+   /* background-color: white;*/
+    width: 32px;
+    height: 96px;
+    left: 352px;
+    top: 287px;
+}
+#grass10{
+   /* background-color: white;*/
+    width: 288px;
+    height: 31px;
+    left: 384px;
+    top: 352px;
+}
+#grass11{
+  /*  background-color: white;*/
+    width: 96px;
+    height: 159px;
+    left: 576px;
+    top: 383px;
+}
+#grass12{
+   /* background-color: white;*/
+    width: 63px;
+    height: 353px;
+    left: 737px;
+    top: 255px;
+}
+#grass13{
+   /* background-color: white;*/
+    width: 127px;
+    height: 255px;
+    left: 673px;
+    top: 0px;
+}
+#grass14{
+    /*background-color: white;*/
+    width: 451px;
+    height: 31px;
+    left: 222px;
+    top: 0px;
 }
