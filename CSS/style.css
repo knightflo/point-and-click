@@ -71,7 +71,7 @@ body{
 }
 
 #doorone{
-   /* background-color: white;*/
+    background-color: white;
     width: 32px;
     height: 47px;
     left: 528px;

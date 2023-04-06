@@ -8,20 +8,21 @@ const sec = 1000;
 
 const grass1 = document.getElementById("grass1");
 
-const characteraudio = document.getElementById("characteraudio");
+const characterAudio = document.getElementById("characteraudio");
 
 let key = false;
 
-
+const counterAudio = document.getElementById("counteraudio")
 
 const mainCharacterSpeech = document.getElementById("mainCharacterSpeech");
 
 const counterSpeech = document.getElementById("counterSpeech");
 const counterCharacter = document.getElementById("counterCharacter");
 
-
+const Doorone = document.getElementById("doorone");
 
 gamewindow.onclick = function (e) {
+  console.log("a;oirghnvaklsjhvbrsladk.l");
     var rect = gameWindow.getBoundingClientRect();
     var x = e.clientX - rect.left; //x position within the element
     var y = e.clientY - rect.top; //y position within the element
@@ -31,13 +32,17 @@ gamewindow.onclick = function (e) {
 
     console.log(e.target.id);
     switch(e.target.id){
-    case Doorone:
-      showMessage(mainCharacterSpeech, characterAudio, "ow boring statue...");
+    case "doorone":
+      console.log("case store 1")
+      console.log(mainCharacterSpeech);
+      console.log(characteraudio);
+      showMessage(mainCharacterSpeech, characterAudio, "O my god i am invisible");
       setTimeout(function () { counterCharacter.style.opacity = 1; }, 4 * sec);
-      setTimeout(showMessage, 4 * sec, counterSpeech, counterAudio, "No you are boring stupid!");
-      setTimeout(showMessage, 8 * sec, mainCharacterSpeech, characterAudio, "Ow I am so sorry. <br>I didn't know you could talk.");
+      setTimeout(showMessage, 4 * sec, counterSpeech, counterAudio, "Hello i am your fellow ghost <br>I just wanted to say you completed<br> the short game!");
+      setTimeout(showMessage, 8 * sec, mainCharacterSpeech, characterAudio, "Ok thank you can you tell me <br> why i am invisible?");
+      setTimeout(showMessage, 12 * sec, counterSpeech, counterAudio, "no");
       setTimeout(function () { counterCharacter.style.opacity = 0; }, 12 * sec);
-
+console.log("STOPSEAPKAING");
         break;
     }
 }
@@ -63,6 +68,7 @@ function hidemessagedie() {
 
 
 function showMessage(targetBubble, targetAudio, message) {
+  console.log("SPERAREAK");
   targetAudio.currentTime = 0;
   targetAudio.play();
   targetBubble.innerHTML = message;
@@ -85,7 +91,7 @@ let different;
 
 
 var Grass1 = document.getElementById("grass1");
-var Doorone = document.getElementById("doorone");
+
 var Grass2 = document.getElementById("grass2");
 var Grass3 = document.getElementById("grass3");
 var Grass4 = document.getElementById("grass4");
@@ -104,7 +110,7 @@ var slipkey = document.getElementById("keyslip")
 
 
 setInterval(function() {
-  Switch(Doorone);
+  
   Switch(Grass1);
   Switch(Grass2);
   Switch(Grass3);
