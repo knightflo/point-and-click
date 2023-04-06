@@ -6,10 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>point and click adventure</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <h1 id="maintitle"></h1>
     <div id="gameWindow">
+
+<!--dialogue bar-->
+<div id="dialoguebar" class="gameObject foreground">
+    <div id="dialogcontent">
+        
+        <div id="mainCharacterSpeech" class="gameObject foreground speech-bubble">...</div>
+        <div id="counterSpeech" class="gameObject foreground speech-bubble">...</div>
+
+    <div id="diedspeech" class="gameObject foreground speech-bubble2">...</div>
+    
+    
+    </div>
+</div>
+
+
+
  <!---foreground layer-->
  
 <div id="doorone" class="gameObject foreground"></div>
@@ -27,6 +44,10 @@
 <div id="grass12" class="gameObject foreground"></div>
 <div id="grass13" class="gameObject foreground"></div>
 <div id="grass14" class="gameObject foreground"></div>
+
+
+
+<div id="wall1" class="gameObject foreground"></div>
  
  <!--main character layer-->
 <div id="mainCharacter" class="gameObject character">
@@ -42,7 +63,9 @@
  
 
 
-    
+    <audio id="characteraudio">
+        <source src="audio/fard.mp3">
+    </audio>
     <script src="js/index.js"></script>
 </body>
 </html>

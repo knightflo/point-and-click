@@ -19,9 +19,30 @@ body{
 
 }
 
+/* dialogue bar */
+
+#dialoguebar{
+    bottom: 0px;
+    left: 0px;
+    width: 800px;
+    height: 64px;
+}
+#dialoguecontent{
+    position: relative;
+
+}
+
+#diedspeech{
+    top: -519px;
+    left: 259px;
+    
+}
+
+/*  */
+
 .gameObject{
     /*background-color: white;*/
-    transition:all 1s ease-in-out;
+    
     position: absolute;
     
 }
@@ -40,9 +61,17 @@ body{
 #mainCharacter{
     left: 407px;
     top: 494px;
+    transition:all 1s ease-in-out;
 }
+
+#keyslip{
+    top: 279px;
+    left: 149px;
+    height: 20px;
+}
+
 #doorone{
-    background-color: white;
+   /* background-color: white;*/
     width: 32px;
     height: 47px;
     left: 528px;
@@ -50,6 +79,7 @@ body{
 }
 #grass1{
    /* background-color: white;*/
+   
     width: 256px;
     height: 32px;
     left: 256px;
@@ -145,4 +175,47 @@ body{
     height: 31px;
     left: 222px;
     top: 0px;
+}
+
+.speech-bubble2{
+    
+    border-radius: 6px;
+    color: black;
+    padding: 5px 5px 5px 20px;
+    font-size: 35px;
+    opacity: 1;
+    width: 500px;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+#wall1{
+      
+    width: 215px;
+    height: 35px;
+    left: 451px;
+    top: 205px;
+}
+.speech-bubble {
+    background: #ffffff;
+    border-radius: 60px;
+    color: #000;
+    padding: 5px 5px 5px 20px;
+    font-size: 12px;
+    opacity: 0;
+    width: 300px;
+    transition: all 1s ease-in-out;
+}
+#mainCharacterSpeech {
+    top: 0px;
+    left: 80px;
+}
+#counterSpeech {
+    top: 0px;
+    right: 80px;
+}
+#counterCharacter {
+    top: 0px;
+    right: 0px;
+    opacity: 0;
 }
